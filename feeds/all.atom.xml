@@ -1,5 +1,21 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>jarv</title><link href="https://jarv.org/" rel="alternate"></link><link href="/feeds/all.atom.xml" rel="self"></link><id>https://jarv.org/</id><updated>2017-04-24T00:00:00-04:00</updated><entry><title>Building cmdchallenge using Lambda and API Gateway in the AWS free-tier with Docker and Go</title><link href="https://jarv.org/building-cmdchallenge.html" rel="alternate"></link><published>2017-04-24T00:00:00-04:00</published><updated>2017-04-24T00:00:00-04:00</updated><author><name>jarv</name></author><id>tag:jarv.org,2017-04-24:/building-cmdchallenge.html</id><summary type="html">&lt;p&gt;Have you ever thought about building a side-project for fun without spending a lot on hosting?
+<feed xmlns="http://www.w3.org/2005/Atom"><title>jarv</title><link href="https://jarv.org/" rel="alternate"></link><link href="/feeds/all.atom.xml" rel="self"></link><id>https://jarv.org/</id><updated>2018-05-31T00:00:00-04:00</updated><entry><title>Removing private repos</title><link href="https://jarv.org/removing-private-repos.html" rel="alternate"></link><published>2018-05-31T00:00:00-04:00</published><updated>2018-05-31T00:00:00-04:00</updated><author><name>jarv</name></author><id>tag:jarv.org,2018-05-31:/removing-private-repos.html</id><summary type="html">&lt;p&gt;Today I decided to remove all private repositories from GitHub.
+Why? Interesting that having private repositories generally meant that
+I was not being as careful about managing secrets properly. Checking in
+API tokens, keys and especially cloud tokens into git &lt;em&gt;never&lt;/em&gt; a good idea
+and looking through some of my old private repos I was doing exactly that.
+So for others who are interested in going from a &lt;em&gt;developer&lt;/em&gt; GitHub account
+back to free I highly recommend doing it! Granted it's only $5 a month savings
+but I definitely feel a bit more transparent than I did 15 minutes ago …&lt;/p&gt;</summary><content type="html">&lt;p&gt;Today I decided to remove all private repositories from GitHub.
+Why? Interesting that having private repositories generally meant that
+I was not being as careful about managing secrets properly. Checking in
+API tokens, keys and especially cloud tokens into git &lt;em&gt;never&lt;/em&gt; a good idea
+and looking through some of my old private repos I was doing exactly that.
+So for others who are interested in going from a &lt;em&gt;developer&lt;/em&gt; GitHub account
+back to free I highly recommend doing it! Granted it's only $5 a month savings
+but I definitely feel a bit more transparent than I did 15 minutes ago. :)
+For finding secrets you can use something like &lt;a href="https://github.com/dxa4481/truffleHog"&gt;trufflehog&lt;/a&gt;
+to ensure that there no sensitive bits in your git history.&lt;/p&gt;</content></entry><entry><title>Building cmdchallenge using Lambda and API Gateway in the AWS free-tier with Docker and Go</title><link href="https://jarv.org/building-cmdchallenge.html" rel="alternate"></link><published>2017-04-24T00:00:00-04:00</published><updated>2017-04-24T00:00:00-04:00</updated><author><name>jarv</name></author><id>tag:jarv.org,2017-04-24:/building-cmdchallenge.html</id><summary type="html">&lt;p&gt;Have you ever thought about building a side-project for fun without spending a lot on hosting?
 This post might be for you. With the most tech-buzz-wordy title I could conjure up here is 
 a quick overview of how &lt;a href="https://cmdchallenge.com"&gt;cmdchallenge.com&lt;/a&gt; is built.
 The site is a simple web application side-project that executes shell commands

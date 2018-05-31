@@ -1,5 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
-<rss version="2.0"><channel><title>jarv - jarv</title><link>https://jarv.org/</link><description></description><lastBuildDate>Mon, 24 Apr 2017 00:00:00 -0400</lastBuildDate><item><title>Building cmdchallenge using Lambda and API Gateway in the AWS free-tier with Docker and Go</title><link>https://jarv.org/building-cmdchallenge.html</link><description>&lt;p&gt;Have you ever thought about building a side-project for fun without spending a lot on hosting?
+<rss version="2.0"><channel><title>jarv - jarv</title><link>https://jarv.org/</link><description></description><lastBuildDate>Thu, 31 May 2018 00:00:00 -0400</lastBuildDate><item><title>Removing private repos</title><link>https://jarv.org/removing-private-repos.html</link><description>&lt;p&gt;Today I decided to remove all private repositories from GitHub.
+Why? Interesting that having private repositories generally meant that
+I was not being as careful about managing secrets properly. Checking in
+API tokens, keys and especially cloud tokens into git &lt;em&gt;never&lt;/em&gt; a good idea
+and looking through some of my old private repos I was doing exactly that.
+So for others who are interested in going from a &lt;em&gt;developer&lt;/em&gt; GitHub account
+back to free I highly recommend doing it! Granted it's only $5 a month savings
+but I definitely feel a bit more transparent than I did 15 minutes ago …&lt;/p&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">jarv</dc:creator><pubDate>Thu, 31 May 2018 00:00:00 -0400</pubDate><guid isPermaLink="false">tag:jarv.org,2018-05-31:/removing-private-repos.html</guid></item><item><title>Building cmdchallenge using Lambda and API Gateway in the AWS free-tier with Docker and Go</title><link>https://jarv.org/building-cmdchallenge.html</link><description>&lt;p&gt;Have you ever thought about building a side-project for fun without spending a lot on hosting?
 This post might be for you. With the most tech-buzz-wordy title I could conjure up here is 
 a quick overview of how &lt;a href="https://cmdchallenge.com"&gt;cmdchallenge.com&lt;/a&gt; is built.
 The site is a simple web application side-project that executes shell commands

@@ -5,10 +5,9 @@
         <meta charset="utf-8" />
         <link href="/feeds/all.atom.xml" type="application/atom+xml" rel="alternate" title="jarv Full Atom Feed" />
         <link href="/rss.xml" type="application/rss+xml" rel="alternate" title="jarv RSS Feed" />
-        <link href="/feeds/uncategorized.atom.xml" type="application/atom+xml" rel="alternate" title="jarv Categories Atom Feed" />
+        <link href="/feeds/misc.atom.xml" type="application/atom+xml" rel="alternate" title="jarv Categories Atom Feed" />
 
 
-    <meta name="tags" content="avr" />
 
 </head>
 
@@ -25,22 +24,29 @@
 <section id="content" class="body">
   <header>
     <h2 class="entry-title">
-      <a href="./singing-marioman.html" rel="bookmark"
-         title="Permalink to Singing Marioman">Singing Marioman</a></h2>
+      <a href="./removing-private-repos.html" rel="bookmark"
+         title="Permalink to Removing private repos">Removing private repos</a></h2>
  
   </header>
   <footer class="post-info">
-    <time class="published" datetime="2009-05-24T19:37:00-04:00">
-      Sun 24 May 2009
+    <time class="published" datetime="2018-05-31T00:00:00-04:00">
+      Thu 31 May 2018
     </time>
     <address class="vcard author">
       By           <a class="url fn" href="./author/jarv.html">jarv</a>
     </address>
   </footer><!-- /.post-info -->
   <div class="entry-content">
-    <p>Using an attiny13A and some leds and a speaker create a musical
-marioman.</p>
-<iframe src="http://www.youtube.com/embed/rCdSEzUQ3ok" style="border: none"></iframe>
+    <p>Today I decided to remove all private repositories from GitHub.
+Why? Interesting that having private repositories generally meant that
+I was not being as careful about managing secrets properly. Checking in
+API tokens, keys and especially cloud tokens into git <em>never</em> a good idea
+and looking through some of my old private repos I was doing exactly that.
+So for others who are interested in going from a <em>developer</em> GitHub account
+back to free I highly recommend doing it! Granted it's only $5 a month savings
+but I definitely feel a bit more transparent than I did 15 minutes ago. :)
+For finding secrets you can use something like <a href="https://github.com/dxa4481/truffleHog">trufflehog</a>
+to ensure that there no sensitive bits in your git history.</p>
   </div><!-- /.entry-content -->
 </section>
         <footer id="contentinfo" class="body">
